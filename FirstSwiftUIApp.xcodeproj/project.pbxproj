@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351239302C986EB60099B59F /* ButtonFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3512392F2C986EB60099B59F /* ButtonFile.swift */; };
+		351239322C9879550099B59F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351239312C9879550099B59F /* DataModel.swift */; };
+		351239342C9879770099B59F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351239332C9879770099B59F /* DataController.swift */; };
 		35B90C122C97219700DC6AB7 /* FirstSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B90C112C97219700DC6AB7 /* FirstSwiftUIAppApp.swift */; };
 		35B90C142C97219700DC6AB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B90C132C97219700DC6AB7 /* ContentView.swift */; };
 		35B90C162C97219800DC6AB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B90C152C97219800DC6AB7 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3512392F2C986EB60099B59F /* ButtonFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFile.swift; sourceTree = "<group>"; };
+		351239312C9879550099B59F /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		351239332C9879770099B59F /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		35B90C0E2C97219700DC6AB7 /* FirstSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B90C112C97219700DC6AB7 /* FirstSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSwiftUIAppApp.swift; sourceTree = "<group>"; };
 		35B90C132C97219700DC6AB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				35B90C112C97219700DC6AB7 /* FirstSwiftUIAppApp.swift */,
 				35B90C132C97219700DC6AB7 /* ContentView.swift */,
+				351239332C9879770099B59F /* DataController.swift */,
+				351239312C9879550099B59F /* DataModel.swift */,
+				3512392F2C986EB60099B59F /* ButtonFile.swift */,
 				35B90C152C97219800DC6AB7 /* Assets.xcassets */,
 				35B90C172C97219800DC6AB7 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				351239342C9879770099B59F /* DataController.swift in Sources */,
 				35B90C142C97219700DC6AB7 /* ContentView.swift in Sources */,
+				351239322C9879550099B59F /* DataModel.swift in Sources */,
 				35B90C122C97219700DC6AB7 /* FirstSwiftUIAppApp.swift in Sources */,
+				351239302C986EB60099B59F /* ButtonFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +292,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +322,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
